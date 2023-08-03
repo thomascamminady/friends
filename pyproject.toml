@@ -6,6 +6,10 @@ authors = ["Thomas Camminady <0milieux_member@icloud.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
+requests = "^2.31.0"
+polars = "^0.18.11"
+beautifulsoup4 = "^4.12.2"
+rich = "^13.5.2"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.4.1"
